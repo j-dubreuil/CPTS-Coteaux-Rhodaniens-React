@@ -41,10 +41,13 @@
 }
 .accueil-image {
   width: 50px;
+  transform: scale(1.5);
   align-self: center;
   object-fit: cover;
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
+  transition-duration: .3s;
+  transition-property: transform;
 }
 .accueil-burger-menu {
   display: none;
