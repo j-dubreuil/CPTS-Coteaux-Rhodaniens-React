@@ -195,16 +195,6 @@
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.missions-cta-btn1 {
-  color: var(--dl-color-gray-white);
-  text-align: center;
-  padding-top: var(--dl-space-space-doubleunit);
-  padding-left: var(--dl-space-space-tenunits);
-  border-radius: 30px;
-  padding-right: var(--dl-space-space-tenunits);
-  padding-bottom: var(--dl-space-space-doubleunit);
-  background-color: var(--dl-color-gray-black);
-}
 .missions-cards-container {
   width: 100%;
   display: flex;
@@ -520,7 +510,7 @@
   padding-right: var(--dl-space-space-tripleunit);
   padding-bottom: var(--dl-space-space-doubleunit);
 }
-.missions-cta-btn2 {
+.missions-cta-btn1 {
   color: var(--dl-color-gray-white);
   text-align: center;
   padding-top: var(--dl-space-space-unit);

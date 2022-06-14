@@ -43,19 +43,27 @@ const Projets = (props) => {
               </svg>
             </div>
             <div className="projets-links-container">
-              <span className="projets-link-c-p-t-s anchor">La CPTS</span>
-              <a href="#missions" className="projets-link-missions anchor">
+              <Link to="/c-p-t-s" className="projets-link-c-p-t-s anchor">
+                La CPTS
+              </Link>
+              <Link to="/missions" className="projets-link-missions anchor">
                 Missions de Santé
+              </Link>
+              <a href="#projets" className="projets-link-projets anchor">
+                Projets
               </a>
-              <span className="projets-link-projets anchor">Projets</span>
-              <span className="projets-link-actus anchor">Actualités</span>
-              <span className="projets-link-p-s anchor">
+              <Link to="/actus" className="projets-link-actus anchor">
+                Actualités
+              </Link>
+              <Link to="/professionnels" className="projets-link-p-s anchor">
                 Professionnels de Santé
-              </span>
+              </Link>
             </div>
           </div>
           <div className="projets-right-side">
-            <span className="projets-link-contact anchor">Contact</span>
+            <a href="#contact" className="projets-link-contact anchor">
+              Contact
+            </a>
             <button className="projets-cta-btn anchor button">Accès PS</button>
           </div>
           <div data-type="MobileMenu" className="projets-mobile-menu">
@@ -90,12 +98,7 @@ const Projets = (props) => {
       </div>
       <div id="projets" className="projets-projets">
         <div className="projets-heading-container">
-          <h2 className="projets-text section-Heading">
-            Which are the greatest things about it?
-          </h2>
-          <button className="projets-cta-btn1 anchor button">
-            En savoir +
-          </button>
+          <h2 className="projets-text section-Heading">Nos projets</h2>
         </div>
         <div className="projets-cards-container">
           <div className="projets-features-card">
@@ -226,7 +229,7 @@ const Projets = (props) => {
               placeholder="Votre message..."
               className="projets-message textarea"
             ></textarea>
-            <button type="submit" className="projets-cta-btn2 anchor button">
+            <button type="submit" className="projets-cta-btn1 anchor button">
               ENVOYER
             </button>
           </div>

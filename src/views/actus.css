@@ -22,6 +22,7 @@
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
   align-items: center;
   padding-top: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-tripleunit);
@@ -194,16 +195,6 @@
 .actus-text {
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
-}
-.actus-cta-btn1 {
-  color: var(--dl-color-gray-white);
-  text-align: center;
-  padding-top: var(--dl-space-space-doubleunit);
-  padding-left: var(--dl-space-space-tenunits);
-  border-radius: 30px;
-  padding-right: var(--dl-space-space-tenunits);
-  padding-bottom: var(--dl-space-space-doubleunit);
-  background-color: var(--dl-color-gray-black);
 }
 .actus-cards-container {
   width: 100%;
@@ -520,7 +511,7 @@
   padding-right: var(--dl-space-space-tripleunit);
   padding-bottom: var(--dl-space-space-doubleunit);
 }
-.actus-cta-btn2 {
+.actus-cta-btn1 {
   color: var(--dl-color-gray-white);
   text-align: center;
   padding-top: var(--dl-space-space-unit);

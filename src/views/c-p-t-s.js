@@ -61,7 +61,9 @@ const CPTS = (props) => {
             </div>
           </div>
           <div className="c-p-t-s-right-side">
-            <span className="c-p-t-s-link-contact anchor">Contact</span>
+            <a href="#contact" className="c-p-t-s-link-contact anchor">
+              Contact
+            </a>
             <button className="c-p-t-s-cta-btn anchor button">Accès PS</button>
           </div>
           <div data-type="MobileMenu" className="c-p-t-s-mobile-menu">
@@ -109,17 +111,12 @@ const CPTS = (props) => {
               taciti sociosqu ad litora torquent per conubia nostra, per
               inceptos himenaeos.
             </span>
-            <Link to="/" className="c-p-t-s-cta-btn1 anchor button">
-              En savoir plus
-            </Link>
           </div>
         </div>
       </div>
-      <div id="territoire" className="c-p-t-s-territoire">
+      <div className="c-p-t-s-a-savoir">
         <div className="c-p-t-s-heading-container">
-          <h2 className="c-p-t-s-text01 section-Heading">
-            Which are the greatest things about it?
-          </h2>
+          <h2 className="c-p-t-s-text01 section-Heading">A savoir</h2>
         </div>
         <div className="c-p-t-s-cards-container">
           <div className="c-p-t-s-features-card">
@@ -130,7 +127,7 @@ const CPTS = (props) => {
               </svg>
             </div>
             <div className="c-p-t-s-text-container">
-              <span className="c-p-t-s-heading1 card-Heading">Feature One</span>
+              <span className="c-p-t-s-heading1 card-Heading">Mission</span>
               <span className="c-p-t-s-text02 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -146,7 +143,7 @@ const CPTS = (props) => {
               </svg>
             </div>
             <div className="c-p-t-s-text-container1">
-              <span className="c-p-t-s-heading2 card-Heading">Feature Two</span>
+              <span className="c-p-t-s-heading2 card-Heading">Projet</span>
               <span className="c-p-t-s-text03 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -162,9 +159,7 @@ const CPTS = (props) => {
               </svg>
             </div>
             <div className="c-p-t-s-text-container2">
-              <span className="c-p-t-s-heading3 card-Heading">
-                Feature Three
-              </span>
+              <span className="c-p-t-s-heading3 card-Heading">Info</span>
               <span className="c-p-t-s-text04 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -180,9 +175,7 @@ const CPTS = (props) => {
               </svg>
             </div>
             <div className="c-p-t-s-text-container3">
-              <span className="c-p-t-s-heading4 card-Heading">
-                Feature Four
-              </span>
+              <span className="c-p-t-s-heading4 card-Heading">Actu</span>
               <span className="c-p-t-s-text05 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -198,9 +191,7 @@ const CPTS = (props) => {
               </svg>
             </div>
             <div className="c-p-t-s-text-container4">
-              <span className="c-p-t-s-heading5 card-Heading">
-                Feature Five
-              </span>
+              <span className="c-p-t-s-heading5 card-Heading">Autre</span>
               <span className="c-p-t-s-text06 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -216,7 +207,7 @@ const CPTS = (props) => {
               </svg>
             </div>
             <div className="c-p-t-s-text-container5">
-              <span className="c-p-t-s-heading6 card-Heading">Feature Six</span>
+              <span className="c-p-t-s-heading6 card-Heading">Autre</span>
               <span className="c-p-t-s-text07 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -229,7 +220,7 @@ const CPTS = (props) => {
       <div className="c-p-t-s-section-separator"></div>
       <div id="bureau" className="c-p-t-s-bureau">
         <div className="c-p-t-s-heading-container1">
-          <h1 className="c-p-t-s-text08 section-Heading">Meet the Team</h1>
+          <h1 className="c-p-t-s-text08 section-Heading">Notre équipe</h1>
           <span className="c-p-t-s-text09 section-Text">
             Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
             odio. Praesent libero.
@@ -242,8 +233,8 @@ const CPTS = (props) => {
                 <path d="M576 706.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z"></path>
               </svg>
             </div>
-            <span className="c-p-t-s-name card-Heading">John</span>
-            <span className="c-p-t-s-position card-Text">Position</span>
+            <span className="c-p-t-s-name card-Heading">ABC</span>
+            <span className="c-p-t-s-position card-Text">Co-présidente</span>
           </div>
           <div className="c-p-t-s-team-card1">
             <div className="c-p-t-s-avatar-container1">
@@ -251,8 +242,8 @@ const CPTS = (props) => {
                 <path d="M576 706.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z"></path>
               </svg>
             </div>
-            <span className="c-p-t-s-name1 card-Heading">Megan</span>
-            <span className="c-p-t-s-position1 card-Text">Position</span>
+            <span className="c-p-t-s-name1 card-Heading">DEF</span>
+            <span className="c-p-t-s-position1 card-Text">Co-présidente</span>
           </div>
           <div className="c-p-t-s-team-card2">
             <div className="c-p-t-s-avatar-container2">
@@ -260,8 +251,8 @@ const CPTS = (props) => {
                 <path d="M576 706.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z"></path>
               </svg>
             </div>
-            <span className="c-p-t-s-name2 card-Heading">Alex</span>
-            <span className="c-p-t-s-position2 card-Text">Position</span>
+            <span className="c-p-t-s-name2 card-Heading">GHI</span>
+            <span className="c-p-t-s-position2 card-Text">Secrétaire</span>
           </div>
           <div className="c-p-t-s-team-card3">
             <div className="c-p-t-s-avatar-container3">
@@ -269,8 +260,8 @@ const CPTS = (props) => {
                 <path d="M576 706.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z"></path>
               </svg>
             </div>
-            <span className="c-p-t-s-name3 card-Heading">Sabrina</span>
-            <span className="c-p-t-s-position3 card-Text">Position</span>
+            <span className="c-p-t-s-name3 card-Heading">JKL</span>
+            <span className="c-p-t-s-position3 card-Text">Trésorier</span>
           </div>
           <div className="c-p-t-s-team-card4">
             <div className="c-p-t-s-avatar-container4">
@@ -278,21 +269,22 @@ const CPTS = (props) => {
                 <path d="M576 706.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z"></path>
               </svg>
             </div>
-            <span className="c-p-t-s-name4 card-Heading">Ben</span>
-            <span className="c-p-t-s-position4 card-Text">Position</span>
+            <span className="c-p-t-s-name4 card-Heading">NOM</span>
+            <span className="c-p-t-s-position4 card-Text">Suppléant</span>
           </div>
         </div>
       </div>
       <div className="c-p-t-s-section-separator1"></div>
       <div id="contact" className="c-p-t-s-contact">
-        <h2 className="c-p-t-s-text10 section-Heading">Get in touch</h2>
+        <h2 className="c-p-t-s-text10 section-Heading">Nous contacter</h2>
         <div className="c-p-t-s-content-container1">
           <div className="c-p-t-s-form-container">
             <span className="c-p-t-s-heading7 bigCard-Heading">
-              Send us a message
+              Envoyez-nous un message
             </span>
             <input
               type="text"
+              rows="Votre nom"
               required="true"
               placeholder="Name"
               className="c-p-t-s-name5 input"
@@ -304,25 +296,25 @@ const CPTS = (props) => {
               className="c-p-t-s-email input"
             />
             <textarea
-              placeholder="Your Message"
+              placeholder="Votre Message"
               className="c-p-t-s-message textarea"
             ></textarea>
-            <button className="c-p-t-s-cta-btn2 anchor button">SEND</button>
+            <button className="c-p-t-s-cta-btn1 anchor button">SEND</button>
           </div>
           <div className="c-p-t-s-locations-container">
             <div className="c-p-t-s-location-1">
-              <span className="c-p-t-s-heading8">London, UK</span>
+              <span className="c-p-t-s-heading8">Beauvallon</span>
               <div className="c-p-t-s-adress">
                 <svg viewBox="0 0 1024 1024" className="c-p-t-s-icon32">
                   <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
                 </svg>
-                <span className="section-Text">Address</span>
+                <span className="section-Text">Adresse</span>
               </div>
               <div className="c-p-t-s-email1">
                 <svg viewBox="0 0 1024 1024" className="c-p-t-s-icon34">
                   <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
                 </svg>
-                <span className="section-Text">E-mail Address</span>
+                <span className="section-Text">E-mail</span>
               </div>
               <div className="c-p-t-s-phone">
                 <svg
@@ -331,7 +323,7 @@ const CPTS = (props) => {
                 >
                   <path d="M804.571 708.571c0 20.571-9.143 60.571-17.714 79.429-12 28-44 46.286-69.714 60.571-33.714 18.286-68 29.143-106.286 29.143-53.143 0-101.143-21.714-149.714-39.429-34.857-12.571-68.571-28-100-47.429-97.143-60-214.286-177.143-274.286-274.286-19.429-31.429-34.857-65.143-47.429-100-17.714-48.571-39.429-96.571-39.429-149.714 0-38.286 10.857-72.571 29.143-106.286 14.286-25.714 32.571-57.714 60.571-69.714 18.857-8.571 58.857-17.714 79.429-17.714 4 0 8 0 12 1.714 12 4 24.571 32 30.286 43.429 18.286 32.571 36 65.714 54.857 97.714 9.143 14.857 26.286 33.143 26.286 50.857 0 34.857-103.429 85.714-103.429 116.571 0 15.429 14.286 35.429 22.286 49.143 57.714 104 129.714 176 233.714 233.714 13.714 8 33.714 22.286 49.143 22.286 30.857 0 81.714-103.429 116.571-103.429 17.714 0 36 17.143 50.857 26.286 32 18.857 65.143 36.571 97.714 54.857 11.429 5.714 39.429 18.286 43.429 30.286 1.714 4 1.714 8 1.714 12z"></path>
                 </svg>
-                <span className="section-Text">Phone Number</span>
+                <span className="section-Text">04 05 06 07 08</span>
               </div>
             </div>
           </div>
@@ -364,7 +356,7 @@ const CPTS = (props) => {
             <svg viewBox="0 0 1024 1024" className="c-p-t-s-icon44">
               <path d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"></path>
             </svg>
-            <span className="anchor">Copyright, 2021</span>
+            <span className="anchor">Tous droits réservés, 2022</span>
           </div>
         </div>
       </div>

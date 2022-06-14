@@ -52,16 +52,18 @@ const Actus = (props) => {
               <Link to="/projets" className="actus-link-projets anchor">
                 Projets
               </Link>
-              <a href="#actus" className="actus-link-actus anchor">
+              <Link to="/actus" className="actus-link-actus anchor">
                 Actualités
-              </a>
+              </Link>
               <Link to="/professionnels" className="actus-link-p-s anchor">
                 Professionnels de Santé
               </Link>
             </div>
           </div>
           <div className="actus-right-side">
-            <span className="actus-link-contact anchor">Contact</span>
+            <a href="#contact" className="actus-link-contact anchor">
+              Contact
+            </a>
             <button className="actus-cta-btn anchor button">Accès PS</button>
           </div>
           <div data-type="MobileMenu" className="actus-mobile-menu">
@@ -96,10 +98,7 @@ const Actus = (props) => {
       </div>
       <div id="actus" className="actus-actus">
         <div className="actus-heading-container">
-          <h2 className="actus-text section-Heading">
-            Which are the greatest things about it?
-          </h2>
-          <button className="actus-cta-btn1 button anchor">En savoir +</button>
+          <h2 className="actus-text section-Heading">Notre actualité</h2>
         </div>
         <div className="actus-cards-container">
           <div className="actus-features-card">
@@ -110,7 +109,7 @@ const Actus = (props) => {
               </svg>
             </div>
             <div className="actus-text-container">
-              <span className="actus-heading card-Heading">Feature One</span>
+              <span className="actus-heading card-Heading">Info</span>
               <span className="actus-text01 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -126,7 +125,7 @@ const Actus = (props) => {
               </svg>
             </div>
             <div className="actus-text-container1">
-              <span className="actus-heading1 card-Heading">Feature Two</span>
+              <span className="actus-heading1 card-Heading">Info</span>
               <span className="actus-text02 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -142,7 +141,7 @@ const Actus = (props) => {
               </svg>
             </div>
             <div className="actus-text-container2">
-              <span className="actus-heading2 card-Heading">Feature Three</span>
+              <span className="actus-heading2 card-Heading">Info</span>
               <span className="actus-text03 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -158,7 +157,7 @@ const Actus = (props) => {
               </svg>
             </div>
             <div className="actus-text-container3">
-              <span className="actus-heading3 card-Heading">Feature Four</span>
+              <span className="actus-heading3 card-Heading">Info</span>
               <span className="actus-text04 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -174,7 +173,7 @@ const Actus = (props) => {
               </svg>
             </div>
             <div className="actus-text-container4">
-              <span className="actus-heading4 card-Heading">Feature Five</span>
+              <span className="actus-heading4 card-Heading">Info</span>
               <span className="actus-text05 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -190,7 +189,7 @@ const Actus = (props) => {
               </svg>
             </div>
             <div className="actus-text-container5">
-              <span className="actus-heading5 card-Heading">Feature Six</span>
+              <span className="actus-heading5 card-Heading">Info</span>
               <span className="actus-text06 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -224,7 +223,7 @@ const Actus = (props) => {
               placeholder="Votre message..."
               className="actus-message textarea"
             ></textarea>
-            <button type="submit" className="actus-cta-btn2 button anchor">
+            <button type="submit" className="actus-cta-btn1 button anchor">
               ENVOYER
             </button>
           </div>

@@ -61,7 +61,9 @@ const Missions = (props) => {
             </div>
           </div>
           <div className="missions-right-side">
-            <span className="missions-link-contact anchor">Contact</span>
+            <a href="#contact" className="missions-link-contact anchor">
+              Contact
+            </a>
             <button className="missions-cta-btn anchor button">Accès PS</button>
           </div>
           <div data-type="MobileMenu" className="missions-mobile-menu">
@@ -97,11 +99,13 @@ const Missions = (props) => {
       <div id="missions" className="missions-missions">
         <div className="missions-heading-container">
           <h2 className="missions-text section-Heading">
-            Which are the greatest things about it?
+            Nos missions
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
           </h2>
-          <button className="missions-cta-btn1 anchor button">
-            En savoir +
-          </button>
         </div>
         <div className="missions-cards-container">
           <div className="missions-features-card">
@@ -236,7 +240,7 @@ const Missions = (props) => {
               placeholder="Votre message..."
               className="missions-message textarea"
             ></textarea>
-            <button type="submit" className="missions-cta-btn2 button anchor">
+            <button type="submit" className="missions-cta-btn1 button anchor">
               ENVOYER
             </button>
           </div>
