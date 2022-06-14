@@ -41,13 +41,15 @@
 }
 .accueil-image {
   width: 50px;
-  transform: scale(1.5);
   align-self: center;
   object-fit: cover;
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
   transition-duration: .3s;
   transition-property: transform;
+}
+.accueil-image:hover {
+  transform: scale(1.5);
 }
 .accueil-burger-menu {
   display: none;
@@ -64,26 +66,58 @@
   flex-direction: row;
 }
 .accueil-link-c-p-t-s {
+  transition: 0.3s;
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
+}
+.accueil-link-c-p-t-s:hover {
+  padding: var(--dl-space-space-halfunit);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-radius: var(--dl-radius-radius-radius24);
 }
 .accueil-link-missions {
+  transition: 0.3s;
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
+}
+.accueil-link-missions:hover {
+  padding: var(--dl-space-space-halfunit);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-radius: var(--dl-radius-radius-radius24);
 }
 .accueil-link-projets {
+  transition: 0.3s;
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
+}
+.accueil-link-projets:hover {
+  padding: var(--dl-space-space-halfunit);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-radius: var(--dl-radius-radius-radius24);
 }
 .accueil-link-actus {
+  transition: 0.3s;
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
+.accueil-link-actus:hover {
+  padding: var(--dl-space-space-halfunit);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-radius: var(--dl-radius-radius-radius24);
+}
 .accueil-link-p-s {
+  transition: 0.3s;
   border-color: var(--dl-color-gray-black);
   border-width: 0px;
   margin-right: TripleUnit;
   text-decoration: none;
+}
+.accueil-link-p-s:hover {
+  border: none;
+  padding: var(--dl-space-space-halfunit);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius24);
 }
 .accueil-right-side {
   display: flex;
@@ -94,6 +128,7 @@
 }
 .accueil-link-contact {
   text-align: center;
+  transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
   padding-top: var(--dl-space-space-halfunit);
   border-color: var(--dl-color-gray-black);
@@ -104,6 +139,12 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
+}
+.accueil-link-contact:hover {
+  color: var(--dl-color-success-300);
+  border-color: var(--dl-color-success-300);
+  border-style: double;
+  border-width: 5px;
 }
 .accueil-cta-btn {
   color: var(--dl-color-gray-white);
