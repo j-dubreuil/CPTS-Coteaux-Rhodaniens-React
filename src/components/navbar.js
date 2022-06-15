@@ -47,10 +47,7 @@ const Navbar = (props) => {
               <span className="">Professionnels</span>
               <span className=""></span>
             </a>
-            <Link
-              to="/encours-06-espace-patient"
-              className="navbar-link-patient anchor"
-            >
+            <Link to="/numrosutiles" className="navbar-link-patient anchor">
               <span className="">Espace Patient</span>
             </Link>
           </div>
