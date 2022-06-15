@@ -30,7 +30,7 @@ const Accueil = (props) => {
             <Link to="/" className="accueil-navlink">
               <img
                 alt="image"
-                src="/playground_assets/logo_cpts_miniweb1-200w.png"
+                src="/playground_assets/logo_cpts_miniweb1-1500h.png"
                 className="accueil-image"
               />
             </Link>
@@ -65,11 +65,13 @@ const Accueil = (props) => {
           </div>
           <div data-type="MobileMenu" className="accueil-mobile-menu">
             <div className="accueil-container1">
-              <img
-                alt="image"
-                src="https://play.teleporthq.io/static/svg/default-img.svg"
-                className="accueil-image1"
-              />
+              <Link to="/" className="accueil-navlink1">
+                <img
+                  alt="image"
+                  src="/playground_assets/logo_cpts_miniweb1-1500h.png"
+                  className="accueil-image1"
+                />
+              </Link>
               <div data-type="CloseMobileMenu" className="accueil-close-menu">
                 <svg viewBox="0 0 1024 1024" className="accueil-icon02">
                   <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
@@ -77,17 +79,34 @@ const Accueil = (props) => {
               </div>
             </div>
             <div className="accueil-links-container1">
-              <a href="#resources" className="accueil-link anchor">
-                Resources
-              </a>
-              <a href="#inspiration" className="accueil-link01 anchor">
-                Inspiration
-              </a>
-              <a href="#process" className="accueil-link02 anchor">
-                Process
-              </a>
-              <a href="#ourstory" className="accueil-link03 anchor">
-                Our story
+              <Link to="/" className="accueil-link-accueil anchor">
+                <span>Accueil</span>
+              </Link>
+              <Link to="/c-p-t-s" className="accueil-link-c-p-t-s1 anchor">
+                <span className="accueil-text01">
+                  La
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="accueil-text02">CPTS</span>
+              </Link>
+              <Link to="/missions" className="accueil-link-missions1 anchor">
+                Missions
+              </Link>
+              <Link to="/projets" className="accueil-link-projets1 anchor">
+                <span>Projets</span>
+              </Link>
+              <Link to="/actus" className="accueil-link-actus1 anchor">
+                <span>Actus</span>
+              </Link>
+              <Link to="/professionnels" className="accueil-link-p-s1 anchor">
+                <span>Professionnels</span>
+              </Link>
+              <a href="#contact" className="accueil-link-contact1 anchor">
+                <span>Contact</span>
               </a>
             </div>
           </div>
@@ -99,7 +118,7 @@ const Accueil = (props) => {
             <h1 className="accueil-heading section-Heading">
               La CPTS des Côteaux Rhodaniens, votre territoire
             </h1>
-            <span className="accueil-text section-Text">
+            <span className="accueil-text07 section-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
               nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis
@@ -117,7 +136,7 @@ const Accueil = (props) => {
       <div className="accueil-section-separator"></div>
       <div id="missions" className="accueil-missions">
         <div className="accueil-heading-container">
-          <h2 className="accueil-text01 section-Heading">
+          <h2 className="accueil-text08 section-Heading">
             <span>
               Nos missions
               <span
@@ -141,7 +160,7 @@ const Accueil = (props) => {
             </div>
             <div className="accueil-text-container">
               <span className="accueil-heading01 card-Heading">Mission 1</span>
-              <span className="accueil-text03 card-Text">
+              <span className="accueil-text10 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -157,7 +176,7 @@ const Accueil = (props) => {
             </div>
             <div className="accueil-text-container1">
               <span className="accueil-heading02 card-Heading">Mission 2</span>
-              <span className="accueil-text04 card-Text">
+              <span className="accueil-text11 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -173,7 +192,7 @@ const Accueil = (props) => {
             </div>
             <div className="accueil-text-container2">
               <span className="accueil-heading03 card-Heading">Mission 3</span>
-              <span className="accueil-text05 card-Text">
+              <span className="accueil-text12 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -189,7 +208,7 @@ const Accueil = (props) => {
             </div>
             <div className="accueil-text-container3">
               <span className="accueil-heading04 card-Heading">Mission 4</span>
-              <span className="accueil-text06 card-Text">
+              <span className="accueil-text13 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -205,7 +224,7 @@ const Accueil = (props) => {
             </div>
             <div className="accueil-text-container4">
               <span className="accueil-heading05 card-Heading">Mission 5</span>
-              <span className="accueil-text07 card-Text">
+              <span className="accueil-text14 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -221,7 +240,7 @@ const Accueil = (props) => {
             </div>
             <div className="accueil-text-container5">
               <span className="accueil-heading06 card-Heading">Mission 6</span>
-              <span className="accueil-text08 card-Text">
+              <span className="accueil-text15 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -233,8 +252,8 @@ const Accueil = (props) => {
       <div className="accueil-section-separator1"></div>
       <div id="projets" className="accueil-projets">
         <div className="accueil-heading-container1">
-          <h1 className="accueil-text09 section-Heading">Nos projets</h1>
-          <span className="accueil-text10 section-Text">
+          <h1 className="accueil-text16 section-Heading">Nos projets</h1>
+          <span className="accueil-text17 section-Text">
             Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
             odio. Praesent libero.
           </span>
@@ -244,8 +263,8 @@ const Accueil = (props) => {
         </div>
         <div className="accueil-cards-container1">
           <div className="accueil-service-card">
-            <h3 className="accueil-text11 card-Heading">Projet 1</h3>
-            <span className="accueil-text12 card-Text">
+            <h3 className="accueil-text18 card-Heading">Projet 1</h3>
+            <span className="accueil-text19 card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -257,8 +276,8 @@ const Accueil = (props) => {
             <span className="anchor">+ d&apos;infos</span>
           </div>
           <div className="accueil-service-card1">
-            <h3 className="accueil-text13 card-Heading">Projet 2</h3>
-            <span className="accueil-text14 card-Text">
+            <h3 className="accueil-text20 card-Heading">Projet 2</h3>
+            <span className="accueil-text21 card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -270,8 +289,8 @@ const Accueil = (props) => {
             <span className="anchor">+ D&apos;infos</span>
           </div>
           <div className="accueil-service-card2">
-            <h3 className="accueil-text15 card-Heading">Projet 3</h3>
-            <span className="accueil-text16 card-Text">
+            <h3 className="accueil-text22 card-Heading">Projet 3</h3>
+            <span className="accueil-text23 card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -287,12 +306,12 @@ const Accueil = (props) => {
       <div className="accueil-section-separator2"></div>
       <div id="ps" className="accueil-pros">
         <div className="accueil-heading-container2">
-          <h1 className="accueil-text17 section-Heading">
+          <h1 className="accueil-text24 section-Heading">
             <span>Les professionnels de Santé</span>
             <br></br>
             <span>du territoire</span>
           </h1>
-          <span className="accueil-text21 section-Text">
+          <span className="accueil-text28 section-Text">
             Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
             odio. Praesent libero.
           </span>
@@ -351,8 +370,8 @@ const Accueil = (props) => {
       <div className="accueil-section-separator3"></div>
       <div id="actus" className="accueil-actus">
         <div className="accueil-heading-container3">
-          <h1 className="accueil-text22 section-Heading">Nos actus</h1>
-          <span className="accueil-text23 section-Text">
+          <h1 className="accueil-text29 section-Heading">Nos actus</h1>
+          <span className="accueil-text30 section-Text">
             Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
             odio. Praesent libero.
           </span>
@@ -369,7 +388,7 @@ const Accueil = (props) => {
             </div>
             <div className="accueil-content-container1">
               <span className="accueil-heading07 card-Heading">Article 1</span>
-              <span className="accueil-text24 card-Text">
+              <span className="accueil-text31 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis
@@ -378,7 +397,7 @@ const Accueil = (props) => {
                 taciti sociosqu ad litora torquent per conubia nostra, per
                 inceptos himenaeos.
               </span>
-              <span className="accueil-text25 card-Text">
+              <span className="accueil-text32 card-Text">
                 {' '}
                 Fusce nec tellus sed augue semper porta. Mauris massa.
                 Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu
@@ -412,7 +431,7 @@ const Accueil = (props) => {
                 className="accueil-image2"
               />
               <div className="accueil-content-container2">
-                <span className="accueil-text28 smallCard-Heading">Actu 2</span>
+                <span className="accueil-text35 smallCard-Heading">Actu 2</span>
                 <span className="anchor">+ D&apos;infos</span>
               </div>
               <div className="accueil-info-container1">
@@ -434,7 +453,7 @@ const Accueil = (props) => {
                 className="accueil-image3"
               />
               <div className="accueil-content-container3">
-                <span className="accueil-text30 smallCard-Heading">Actu 3</span>
+                <span className="accueil-text37 smallCard-Heading">Actu 3</span>
                 <span className="anchor">+ D&apos;infos</span>
               </div>
               <div className="accueil-info-container2">
@@ -456,7 +475,7 @@ const Accueil = (props) => {
                 className="accueil-image4"
               />
               <div className="accueil-content-container4">
-                <span className="accueil-text32 smallCard-Heading">Actu 4</span>
+                <span className="accueil-text39 smallCard-Heading">Actu 4</span>
                 <span className="anchor">+ D&apos;infos</span>
               </div>
               <div className="accueil-info-container3">
@@ -478,7 +497,7 @@ const Accueil = (props) => {
                 className="accueil-image5"
               />
               <div className="accueil-content-container5">
-                <span className="accueil-text34 smallCard-Heading">Actu 5</span>
+                <span className="accueil-text41 smallCard-Heading">Actu 5</span>
                 <span className="anchor">+ D&apos;infos</span>
               </div>
               <div className="accueil-info-container4">
@@ -501,7 +520,7 @@ const Accueil = (props) => {
       </div>
       <div className="accueil-section-separator4"></div>
       <div id="contact" className="accueil-contact">
-        <h2 className="accueil-text36 section-Heading">- Nous contacter -</h2>
+        <h2 className="accueil-text43 section-Heading">- Nous contacter -</h2>
         <div className="accueil-content-container6">
           <div className="accueil-form-container">
             <span className="accueil-heading08 bigCard-Heading">
@@ -542,7 +561,7 @@ const Accueil = (props) => {
                 </svg>
                 <a
                   href="mailto:cptscoteauxrhodaniens@gmail.com?subject=Contact site web"
-                  className="accueil-link12 section-Text"
+                  className="accueil-link08 section-Text"
                 >
                   cptscoteauxrhodaniens@gmail.com
                 </a>
