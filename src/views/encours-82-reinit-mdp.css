@@ -1,0 +1,71 @@
+.encours82reinit-mdp-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.encours82reinit-mdp-reinit-mdp {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tenunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  background-image: linear-gradient(180deg, rgb(255, 255, 255) 89.00%,rgb(50, 106, 0) 99.00%);
+}
+.encours82reinit-mdp-heading-container {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.encours82reinit-mdp-text {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.encours82reinit-mdp-login-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tenunits);
+  justify-content: space-between;
+}
+.encours82reinit-mdp-text1 {
+  align-self: center;
+  font-style: normal;
+  font-weight: 600;
+}
+.encours82reinit-mdp-login {
+  margin-top: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
+.encours82reinit-mdp-button {
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 800;
+  margin-bottom: var(--dl-space-space-unit);
+}
+@media(max-width: 767px) {
+  .encours82reinit-mdp-heading-container {
+    width: 100%;
+  }
+  .encours82reinit-mdp-login-container {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .encours82reinit-mdp-reinit-mdp {
+    padding-top: var(--dl-space-space-fiveunits);
+    padding-bottom: var(--dl-space-space-fiveunits);
+  }
+}

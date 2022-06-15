@@ -43,14 +43,21 @@
   display: list-item;
 }
 .button {
-  color: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-900);
   display: inline-block;
   padding: 0.5rem 1rem;
   font-family: Raleway;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+  border-color: var(--dl-color-gray-500);
+  border-width: thin;
+  border-radius: var(--dl-radius-radius-radius4);
+  background-color: var(--dl-color-success-300);
+}
+.button:hover {
+  color: var(--dl-color-gray-500);
+  border-color: var(--dl-color-gray-500);
+  border-width: thin;
+  border-radius: var(--dl-radius-radius-radius4);
+  background-color: var(--dl-color-success-700);
 }
 .textarea {
   color: var(--dl-color-gray-black);
