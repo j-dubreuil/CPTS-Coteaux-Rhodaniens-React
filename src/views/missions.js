@@ -80,17 +80,34 @@ const Missions = (props) => {
               </div>
             </div>
             <div className="missions-links-container1">
-              <a href="#resources" className="missions-link anchor">
-                Resources
-              </a>
-              <a href="#inspiration" className="missions-link1 anchor">
-                Inspiration
-              </a>
-              <a href="#process" className="missions-link2 anchor">
-                Process
-              </a>
-              <a href="#ourstory" className="missions-link3 anchor">
-                Our story
+              <Link to="/" className="missions-link-accueil anchor">
+                <span>Accueil</span>
+              </Link>
+              <Link to="/c-p-t-s" className="missions-link-c-p-t-s1 anchor">
+                <span className="missions-text01">
+                  La
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="missions-text02">CPTS</span>
+              </Link>
+              <Link to="/missions" className="missions-link-missions1 anchor">
+                Missions
+              </Link>
+              <Link to="/projets" className="missions-link-projets1 anchor">
+                <span>Projets</span>
+              </Link>
+              <Link to="/actus" className="missions-link-actus1 anchor">
+                <span>Actus</span>
+              </Link>
+              <Link to="/professionnels" className="missions-link-p-s1 anchor">
+                <span>Professionnels</span>
+              </Link>
+              <a href="#contact" className="missions-link-contact1 anchor">
+                <span>Contact</span>
               </a>
             </div>
           </div>
@@ -98,7 +115,7 @@ const Missions = (props) => {
       </div>
       <div id="missions" className="missions-missions">
         <div className="missions-heading-container">
-          <h2 className="missions-text section-Heading">
+          <h2 className="missions-text07 section-Heading">
             Nos missions
             <span
               dangerouslySetInnerHTML={{
@@ -117,7 +134,7 @@ const Missions = (props) => {
             </div>
             <div className="missions-text-container">
               <span className="missions-heading card-Heading">Feature One</span>
-              <span className="missions-text01 card-Text">
+              <span className="missions-text08 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -135,7 +152,7 @@ const Missions = (props) => {
               <span className="missions-heading1 card-Heading">
                 Feature Two
               </span>
-              <span className="missions-text02 card-Text">
+              <span className="missions-text09 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -153,7 +170,7 @@ const Missions = (props) => {
               <span className="missions-heading2 card-Heading">
                 Feature Three
               </span>
-              <span className="missions-text03 card-Text">
+              <span className="missions-text10 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -171,7 +188,7 @@ const Missions = (props) => {
               <span className="missions-heading3 card-Heading">
                 Feature Four
               </span>
-              <span className="missions-text04 card-Text">
+              <span className="missions-text11 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -189,7 +206,7 @@ const Missions = (props) => {
               <span className="missions-heading4 card-Heading">
                 Feature Five
               </span>
-              <span className="missions-text05 card-Text">
+              <span className="missions-text12 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -207,7 +224,7 @@ const Missions = (props) => {
               <span className="missions-heading5 card-Heading">
                 Feature Six
               </span>
-              <span className="missions-text06 card-Text">
+              <span className="missions-text13 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -218,7 +235,7 @@ const Missions = (props) => {
       </div>
       <div className="missions-section-separator"></div>
       <div id="contact" className="missions-contact">
-        <h2 className="missions-text07 section-Heading">- Nous contacter -</h2>
+        <h2 className="missions-text14 section-Heading">- Nous contacter -</h2>
         <div className="missions-content-container">
           <div className="missions-form-container">
             <span className="missions-heading6 bigCard-Heading">
@@ -259,7 +276,7 @@ const Missions = (props) => {
                 </svg>
                 <a
                   href="mailto:cptscoteauxrhodaniens@gmail.com?subject=Contact site web"
-                  className="missions-link4 section-Text"
+                  className="missions-link section-Text"
                 >
                   cptscoteauxrhodaniens@gmail.com
                 </a>

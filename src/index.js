@@ -9,6 +9,7 @@ import Projets from './views/projets'
 import Professionnels from './views/professionnels'
 import Accueil from './views/accueil'
 import Actus from './views/actus'
+import Contact from './views/contact'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route exact component={Professionnels} path="/professionnels" />
         <Route exact component={Accueil} path="/" />
         <Route exact component={Actus} path="/actus" />
+        <Route exact component={Contact} path="/contact" />
       </div>
     </Router>
   )

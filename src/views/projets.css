@@ -157,19 +157,34 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.projets-link {
+.projets-link-accueil {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.projets-link1 {
+.projets-link-c-p-t-s1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.projets-link2 {
+.projets-text01 {
+  text-decoration: none;
+}
+.projets-text02 {
+  text-decoration: none;
+}
+.projets-link-missions1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.projets-link3 {
+.projets-link-projets1 {
+  text-decoration: none;
+}
+.projets-link-actus1 {
+  text-decoration: none;
+}
+.projets-link-p-s1 {
+  text-decoration: none;
+}
+.projets-link-contact1 {
   text-decoration: none;
 }
 .projets-projets {
@@ -191,7 +206,7 @@
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.projets-text {
+.projets-text07 {
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
@@ -237,7 +252,7 @@
 .projets-heading {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.projets-text01 {
+.projets-text08 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -275,7 +290,7 @@
 .projets-heading1 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.projets-text02 {
+.projets-text09 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -313,7 +328,7 @@
 .projets-heading2 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.projets-text03 {
+.projets-text10 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -350,7 +365,7 @@
 .projets-heading3 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.projets-text04 {
+.projets-text11 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -387,7 +402,7 @@
 .projets-heading4 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.projets-text05 {
+.projets-text12 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -424,7 +439,7 @@
 .projets-heading5 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.projets-text06 {
+.projets-text13 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -449,7 +464,7 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: flex-start;
 }
-.projets-text07 {
+.projets-text14 {
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
@@ -561,7 +576,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.projets-link4 {
+.projets-link {
   text-decoration: none;
 }
 .projets-phone {

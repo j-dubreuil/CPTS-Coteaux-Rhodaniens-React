@@ -94,17 +94,49 @@ const Professionnels = (props) => {
               </div>
             </div>
             <div className="professionnels-links-container1">
-              <a href="#resources" className="professionnels-link anchor">
-                Resources
-              </a>
-              <a href="#inspiration" className="professionnels-link1 anchor">
-                Inspiration
-              </a>
-              <a href="#process" className="professionnels-link2 anchor">
-                Process
-              </a>
-              <a href="#ourstory" className="professionnels-link3 anchor">
-                Our story
+              <Link to="/" className="professionnels-link-accueil anchor">
+                <span>Accueil</span>
+              </Link>
+              <Link
+                to="/c-p-t-s"
+                className="professionnels-link-c-p-t-s1 anchor"
+              >
+                <span className="professionnels-text01">
+                  La
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="professionnels-text02">CPTS</span>
+              </Link>
+              <Link
+                to="/missions"
+                className="professionnels-link-missions1 anchor"
+              >
+                Missions
+              </Link>
+              <Link
+                to="/projets"
+                className="professionnels-link-projets1 anchor"
+              >
+                <span>Projets</span>
+              </Link>
+              <Link to="/actus" className="professionnels-link-actus1 anchor">
+                <span>Actus</span>
+              </Link>
+              <Link
+                to="/professionnels"
+                className="professionnels-link-p-s1 anchor"
+              >
+                <span>Professionnels</span>
+              </Link>
+              <a
+                href="#contact"
+                className="professionnels-link-contact1 anchor"
+              >
+                <span>Contact</span>
               </a>
             </div>
           </div>
@@ -112,7 +144,7 @@ const Professionnels = (props) => {
       </div>
       <div id="pros" className="professionnels-professionnels">
         <div className="professionnels-heading-container">
-          <h2 className="professionnels-text section-Heading">
+          <h2 className="professionnels-text07 section-Heading">
             <span>Les professionnels de Santé</span>
             <br></br>
             <span>du territoire</span>
@@ -130,7 +162,7 @@ const Professionnels = (props) => {
               <span className="professionnels-heading card-Heading">
                 Feature One
               </span>
-              <span className="professionnels-text03 card-Text">
+              <span className="professionnels-text10 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -148,7 +180,7 @@ const Professionnels = (props) => {
               <span className="professionnels-heading1 card-Heading">
                 Feature Two
               </span>
-              <span className="professionnels-text04 card-Text">
+              <span className="professionnels-text11 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -166,7 +198,7 @@ const Professionnels = (props) => {
               <span className="professionnels-heading2 card-Heading">
                 Feature Three
               </span>
-              <span className="professionnels-text05 card-Text">
+              <span className="professionnels-text12 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -184,7 +216,7 @@ const Professionnels = (props) => {
               <span className="professionnels-heading3 card-Heading">
                 Feature Four
               </span>
-              <span className="professionnels-text06 card-Text">
+              <span className="professionnels-text13 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -202,7 +234,7 @@ const Professionnels = (props) => {
               <span className="professionnels-heading4 card-Heading">
                 Feature Five
               </span>
-              <span className="professionnels-text07 card-Text">
+              <span className="professionnels-text14 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -220,7 +252,7 @@ const Professionnels = (props) => {
               <span className="professionnels-heading5 card-Heading">
                 Feature Six
               </span>
-              <span className="professionnels-text08 card-Text">
+              <span className="professionnels-text15 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -230,10 +262,10 @@ const Professionnels = (props) => {
         </div>
         <div id="bureau" className="professionnels-bureau">
           <div className="professionnels-heading-container1">
-            <h1 className="professionnels-text09 section-Heading">
+            <h1 className="professionnels-text16 section-Heading">
               Meet the Team
             </h1>
-            <span className="professionnels-text10 section-Text">
+            <span className="professionnels-text17 section-Text">
               Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
             </span>
@@ -299,7 +331,7 @@ const Professionnels = (props) => {
       </div>
       <div className="professionnels-section-separator"></div>
       <div id="contact" className="professionnels-contact">
-        <h2 className="professionnels-text11 section-Heading">
+        <h2 className="professionnels-text18 section-Heading">
           - Nous contacter -
         </h2>
         <div className="professionnels-content-container">
@@ -347,7 +379,7 @@ const Professionnels = (props) => {
                 </svg>
                 <a
                   href="mailto:cptscoteauxrhodaniens@gmail.com?subject=Contact site web"
-                  className="professionnels-link4 section-Text"
+                  className="professionnels-link section-Text"
                 >
                   cptscoteauxrhodaniens@gmail.com
                 </a>

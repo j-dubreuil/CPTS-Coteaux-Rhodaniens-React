@@ -59,6 +59,7 @@
 .accueil-icon {
   width: 36px;
   height: 36px;
+  text-decoration: none;
 }
 .accueil-links-container {
   display: flex;
@@ -180,7 +181,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.accueil-navlink1 {
+.accueil-navlink2 {
   display: contents;
 }
 .accueil-image1 {

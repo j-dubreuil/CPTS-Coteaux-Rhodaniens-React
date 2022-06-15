@@ -80,17 +80,34 @@ const Actus = (props) => {
               </div>
             </div>
             <div className="actus-links-container1">
-              <a href="#resources" className="actus-link anchor">
-                Resources
-              </a>
-              <a href="#inspiration" className="actus-link1 anchor">
-                Inspiration
-              </a>
-              <a href="#process" className="actus-link2 anchor">
-                Process
-              </a>
-              <a href="#ourstory" className="actus-link3 anchor">
-                Our story
+              <Link to="/" className="actus-link-accueil anchor">
+                <span>Accueil</span>
+              </Link>
+              <Link to="/c-p-t-s" className="actus-link-c-p-t-s1 anchor">
+                <span className="actus-text01">
+                  La
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="actus-text02">CPTS</span>
+              </Link>
+              <Link to="/missions" className="actus-link-missions1 anchor">
+                Missions
+              </Link>
+              <Link to="/projets" className="actus-link-projets1 anchor">
+                <span>Projets</span>
+              </Link>
+              <Link to="/actus" className="actus-link-actus1 anchor">
+                <span>Actus</span>
+              </Link>
+              <Link to="/professionnels" className="actus-link-p-s1 anchor">
+                <span>Professionnels</span>
+              </Link>
+              <a href="#contact" className="actus-link-contact1 anchor">
+                <span>Contact</span>
               </a>
             </div>
           </div>
@@ -98,7 +115,7 @@ const Actus = (props) => {
       </div>
       <div id="actus" className="actus-actus">
         <div className="actus-heading-container">
-          <h2 className="actus-text section-Heading">Notre actualité</h2>
+          <h2 className="actus-text07 section-Heading">Notre actualité</h2>
         </div>
         <div className="actus-cards-container">
           <div className="actus-features-card">
@@ -110,7 +127,7 @@ const Actus = (props) => {
             </div>
             <div className="actus-text-container">
               <span className="actus-heading card-Heading">Info</span>
-              <span className="actus-text01 card-Text">
+              <span className="actus-text08 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -126,7 +143,7 @@ const Actus = (props) => {
             </div>
             <div className="actus-text-container1">
               <span className="actus-heading1 card-Heading">Info</span>
-              <span className="actus-text02 card-Text">
+              <span className="actus-text09 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -142,7 +159,7 @@ const Actus = (props) => {
             </div>
             <div className="actus-text-container2">
               <span className="actus-heading2 card-Heading">Info</span>
-              <span className="actus-text03 card-Text">
+              <span className="actus-text10 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -158,7 +175,7 @@ const Actus = (props) => {
             </div>
             <div className="actus-text-container3">
               <span className="actus-heading3 card-Heading">Info</span>
-              <span className="actus-text04 card-Text">
+              <span className="actus-text11 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -174,7 +191,7 @@ const Actus = (props) => {
             </div>
             <div className="actus-text-container4">
               <span className="actus-heading4 card-Heading">Info</span>
-              <span className="actus-text05 card-Text">
+              <span className="actus-text12 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -190,7 +207,7 @@ const Actus = (props) => {
             </div>
             <div className="actus-text-container5">
               <span className="actus-heading5 card-Heading">Info</span>
-              <span className="actus-text06 card-Text">
+              <span className="actus-text13 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -201,7 +218,7 @@ const Actus = (props) => {
       </div>
       <div className="actus-section-separator"></div>
       <div id="contact" className="actus-contact">
-        <h2 className="actus-text07 section-Heading">- Nous contacter -</h2>
+        <h2 className="actus-text14 section-Heading">- Nous contacter -</h2>
         <div className="actus-content-container">
           <div className="actus-form-container">
             <span className="actus-heading6 bigCard-Heading">
@@ -242,7 +259,7 @@ const Actus = (props) => {
                 </svg>
                 <a
                   href="mailto:cptscoteauxrhodaniens@gmail.com?subject=Contact site web"
-                  className="actus-link4 section-Text"
+                  className="actus-link section-Text"
                 >
                   cptscoteauxrhodaniens@gmail.com
                 </a>

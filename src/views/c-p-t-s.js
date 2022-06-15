@@ -80,17 +80,34 @@ const CPTS = (props) => {
               </div>
             </div>
             <div className="c-p-t-s-links-container1">
-              <a href="#resources" className="c-p-t-s-link anchor">
-                Resources
-              </a>
-              <a href="#inspiration" className="c-p-t-s-link1 anchor">
-                Inspiration
-              </a>
-              <a href="#process" className="c-p-t-s-link2 anchor">
-                Process
-              </a>
-              <a href="#ourstory" className="c-p-t-s-link3 anchor">
-                Our story
+              <Link to="/" className="c-p-t-s-link-accueil anchor">
+                <span>Accueil</span>
+              </Link>
+              <Link to="/c-p-t-s" className="c-p-t-s-link-c-p-t-s1 anchor">
+                <span className="c-p-t-s-text01">
+                  La
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="c-p-t-s-text02">CPTS</span>
+              </Link>
+              <Link to="/missions" className="c-p-t-s-link-missions1 anchor">
+                Missions
+              </Link>
+              <Link to="/projets" className="c-p-t-s-link-projets1 anchor">
+                <span>Projets</span>
+              </Link>
+              <Link to="/actus" className="c-p-t-s-link-actus1 anchor">
+                <span>Actus</span>
+              </Link>
+              <Link to="/professionnels" className="c-p-t-s-link-p-s1 anchor">
+                <span>Professionnels</span>
+              </Link>
+              <a href="#contact" className="c-p-t-s-link-contact1 anchor">
+                <span>Contact</span>
               </a>
             </div>
           </div>
@@ -102,7 +119,7 @@ const CPTS = (props) => {
             <h1 className="c-p-t-s-heading section-Heading">
               La CPTS des Côteaux Rhodaniens, votre territoire
             </h1>
-            <span className="c-p-t-s-text section-Text">
+            <span className="c-p-t-s-text07 section-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
               nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis
@@ -116,7 +133,7 @@ const CPTS = (props) => {
       </div>
       <div className="c-p-t-s-a-savoir">
         <div className="c-p-t-s-heading-container">
-          <h2 className="c-p-t-s-text01 section-Heading">A savoir</h2>
+          <h2 className="c-p-t-s-text08 section-Heading">A savoir</h2>
         </div>
         <div className="c-p-t-s-cards-container">
           <div className="c-p-t-s-features-card">
@@ -128,7 +145,7 @@ const CPTS = (props) => {
             </div>
             <div className="c-p-t-s-text-container">
               <span className="c-p-t-s-heading1 card-Heading">Mission</span>
-              <span className="c-p-t-s-text02 card-Text">
+              <span className="c-p-t-s-text09 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -144,7 +161,7 @@ const CPTS = (props) => {
             </div>
             <div className="c-p-t-s-text-container1">
               <span className="c-p-t-s-heading2 card-Heading">Projet</span>
-              <span className="c-p-t-s-text03 card-Text">
+              <span className="c-p-t-s-text10 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -160,7 +177,7 @@ const CPTS = (props) => {
             </div>
             <div className="c-p-t-s-text-container2">
               <span className="c-p-t-s-heading3 card-Heading">Info</span>
-              <span className="c-p-t-s-text04 card-Text">
+              <span className="c-p-t-s-text11 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -176,7 +193,7 @@ const CPTS = (props) => {
             </div>
             <div className="c-p-t-s-text-container3">
               <span className="c-p-t-s-heading4 card-Heading">Actu</span>
-              <span className="c-p-t-s-text05 card-Text">
+              <span className="c-p-t-s-text12 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -192,7 +209,7 @@ const CPTS = (props) => {
             </div>
             <div className="c-p-t-s-text-container4">
               <span className="c-p-t-s-heading5 card-Heading">Autre</span>
-              <span className="c-p-t-s-text06 card-Text">
+              <span className="c-p-t-s-text13 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -208,7 +225,7 @@ const CPTS = (props) => {
             </div>
             <div className="c-p-t-s-text-container5">
               <span className="c-p-t-s-heading6 card-Heading">Autre</span>
-              <span className="c-p-t-s-text07 card-Text">
+              <span className="c-p-t-s-text14 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -220,8 +237,8 @@ const CPTS = (props) => {
       <div className="c-p-t-s-section-separator"></div>
       <div id="bureau" className="c-p-t-s-bureau">
         <div className="c-p-t-s-heading-container1">
-          <h1 className="c-p-t-s-text08 section-Heading">Notre équipe</h1>
-          <span className="c-p-t-s-text09 section-Text">
+          <h1 className="c-p-t-s-text15 section-Heading">Notre équipe</h1>
+          <span className="c-p-t-s-text16 section-Text">
             Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
             odio. Praesent libero.
           </span>
@@ -276,7 +293,7 @@ const CPTS = (props) => {
       </div>
       <div className="c-p-t-s-section-separator1"></div>
       <div id="contact" className="c-p-t-s-contact">
-        <h2 className="c-p-t-s-text10 section-Heading">Nous contacter</h2>
+        <h2 className="c-p-t-s-text17 section-Heading">Nous contacter</h2>
         <div className="c-p-t-s-content-container1">
           <div className="c-p-t-s-form-container">
             <span className="c-p-t-s-heading7 bigCard-Heading">

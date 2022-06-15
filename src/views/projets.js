@@ -80,17 +80,34 @@ const Projets = (props) => {
               </div>
             </div>
             <div className="projets-links-container1">
-              <a href="#resources" className="projets-link anchor">
-                Resources
-              </a>
-              <a href="#inspiration" className="projets-link1 anchor">
-                Inspiration
-              </a>
-              <a href="#process" className="projets-link2 anchor">
-                Process
-              </a>
-              <a href="#ourstory" className="projets-link3 anchor">
-                Our story
+              <Link to="/" className="projets-link-accueil anchor">
+                <span>Accueil</span>
+              </Link>
+              <Link to="/c-p-t-s" className="projets-link-c-p-t-s1 anchor">
+                <span className="projets-text01">
+                  La
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="projets-text02">CPTS</span>
+              </Link>
+              <Link to="/missions" className="projets-link-missions1 anchor">
+                Missions
+              </Link>
+              <Link to="/projets" className="projets-link-projets1 anchor">
+                <span>Projets</span>
+              </Link>
+              <Link to="/actus" className="projets-link-actus1 anchor">
+                <span>Actus</span>
+              </Link>
+              <Link to="/professionnels" className="projets-link-p-s1 anchor">
+                <span>Professionnels</span>
+              </Link>
+              <a href="#contact" className="projets-link-contact1 anchor">
+                <span>Contact</span>
               </a>
             </div>
           </div>
@@ -98,7 +115,7 @@ const Projets = (props) => {
       </div>
       <div id="projets" className="projets-projets">
         <div className="projets-heading-container">
-          <h2 className="projets-text section-Heading">Nos projets</h2>
+          <h2 className="projets-text07 section-Heading">Nos projets</h2>
         </div>
         <div className="projets-cards-container">
           <div className="projets-features-card">
@@ -110,7 +127,7 @@ const Projets = (props) => {
             </div>
             <div className="projets-text-container">
               <span className="projets-heading card-Heading">Feature One</span>
-              <span className="projets-text01 card-Text">
+              <span className="projets-text08 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -126,7 +143,7 @@ const Projets = (props) => {
             </div>
             <div className="projets-text-container1">
               <span className="projets-heading1 card-Heading">Feature Two</span>
-              <span className="projets-text02 card-Text">
+              <span className="projets-text09 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -144,7 +161,7 @@ const Projets = (props) => {
               <span className="projets-heading2 card-Heading">
                 Feature Three
               </span>
-              <span className="projets-text03 card-Text">
+              <span className="projets-text10 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -162,7 +179,7 @@ const Projets = (props) => {
               <span className="projets-heading3 card-Heading">
                 Feature Four
               </span>
-              <span className="projets-text04 card-Text">
+              <span className="projets-text11 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -180,7 +197,7 @@ const Projets = (props) => {
               <span className="projets-heading4 card-Heading">
                 Feature Five
               </span>
-              <span className="projets-text05 card-Text">
+              <span className="projets-text12 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -196,7 +213,7 @@ const Projets = (props) => {
             </div>
             <div className="projets-text-container5">
               <span className="projets-heading5 card-Heading">Feature Six</span>
-              <span className="projets-text06 card-Text">
+              <span className="projets-text13 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -207,7 +224,7 @@ const Projets = (props) => {
       </div>
       <div className="projets-section-separator"></div>
       <div id="contact" className="projets-contact">
-        <h2 className="projets-text07 section-Heading">- Nous contacter -</h2>
+        <h2 className="projets-text14 section-Heading">- Nous contacter -</h2>
         <div className="projets-content-container">
           <div className="projets-form-container">
             <span className="projets-heading6 bigCard-Heading">
@@ -248,7 +265,7 @@ const Projets = (props) => {
                 </svg>
                 <a
                   href="mailto:cptscoteauxrhodaniens@gmail.com?subject=Contact site web"
-                  className="projets-link4 section-Text"
+                  className="projets-link section-Text"
                 >
                   cptscoteauxrhodaniens@gmail.com
                 </a>

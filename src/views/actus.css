@@ -158,19 +158,34 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.actus-link {
+.actus-link-accueil {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.actus-link1 {
+.actus-link-c-p-t-s1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.actus-link2 {
+.actus-text01 {
+  text-decoration: none;
+}
+.actus-text02 {
+  text-decoration: none;
+}
+.actus-link-missions1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.actus-link3 {
+.actus-link-projets1 {
+  text-decoration: none;
+}
+.actus-link-actus1 {
+  text-decoration: none;
+}
+.actus-link-p-s1 {
+  text-decoration: none;
+}
+.actus-link-contact1 {
   text-decoration: none;
 }
 .actus-actus {
@@ -192,7 +207,7 @@
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.actus-text {
+.actus-text07 {
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
@@ -238,7 +253,7 @@
 .actus-heading {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.actus-text01 {
+.actus-text08 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -276,7 +291,7 @@
 .actus-heading1 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.actus-text02 {
+.actus-text09 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -314,7 +329,7 @@
 .actus-heading2 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.actus-text03 {
+.actus-text10 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -351,7 +366,7 @@
 .actus-heading3 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.actus-text04 {
+.actus-text11 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -388,7 +403,7 @@
 .actus-heading4 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.actus-text05 {
+.actus-text12 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -425,7 +440,7 @@
 .actus-heading5 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.actus-text06 {
+.actus-text13 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -450,7 +465,7 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: flex-start;
 }
-.actus-text07 {
+.actus-text14 {
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
@@ -562,7 +577,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.actus-link4 {
+.actus-link {
   text-decoration: none;
 }
 .actus-phone {

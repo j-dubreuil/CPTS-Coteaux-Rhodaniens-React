@@ -35,9 +35,11 @@ const Accueil = (props) => {
               />
             </Link>
             <div data-type="BurgerMenu" className="accueil-burger-menu">
-              <svg viewBox="0 0 1024 1024" className="accueil-icon">
-                <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
-              </svg>
+              <Link to="/contact">
+                <svg viewBox="0 0 1024 1024" className="accueil-icon">
+                  <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
+                </svg>
+              </Link>
             </div>
             <div className="accueil-links-container">
               <a href="#cpts" className="accueil-link-c-p-t-s anchor">
@@ -65,7 +67,7 @@ const Accueil = (props) => {
           </div>
           <div data-type="MobileMenu" className="accueil-mobile-menu">
             <div className="accueil-container1">
-              <Link to="/" className="accueil-navlink1">
+              <Link to="/" className="accueil-navlink2">
                 <img
                   alt="image"
                   src="/playground_assets/logo_cpts_miniweb1-1500h.png"
