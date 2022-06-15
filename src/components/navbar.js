@@ -30,32 +30,32 @@ const Navbar = (props) => {
               </svg>
             </Link>
           </div>
-          <div className="navbar-links-container">
-            <a href="#cpts" className="navbar-link-c-p-t-s anchor">
+          <div className="navbar-links-container anchor">
+            <Link to="/c-p-t-s" className="navbar-link-c-p-t-s anchor">
               {props.Link - CPTS}
-            </a>
-            <a href="#missions" className="navbar-link-missions anchor">
+            </Link>
+            <Link to="/missions" className="navbar-link-missions anchor">
               {props.Link - Missions}
-            </a>
-            <a href="#projets" className="navbar-link-projets anchor">
+            </Link>
+            <Link to="/projets" className="navbar-link-projets anchor">
               {props.Link - Projets}
-            </a>
-            <a href="#actus" className="navbar-link-actus anchor">
+            </Link>
+            <Link to="/actus" className="navbar-link-actus anchor">
               {props.Link - Actus}
-            </a>
-            <a href="#ps" className="navbar-link-p-s anchor">
+            </Link>
+            <Link to="/professionnels" className="navbar-link-p-s anchor">
               <span className="">Professionnels</span>
               <span className=""></span>
-            </a>
+            </Link>
             <Link to="/numrosutiles" className="navbar-link-patient anchor">
               <span className="">Espace Patient</span>
             </Link>
           </div>
         </div>
         <div className="navbar-right-side">
-          <a href="#contact" className="navbar-link-contact anchor">
+          <Link to="/contact" className="navbar-link-contact anchor">
             {props.Link - Contact}
-          </a>
+          </Link>
           <Link
             to="/encours-08-login-espace-p-s"
             className="navbar-cta-btn button anchor"

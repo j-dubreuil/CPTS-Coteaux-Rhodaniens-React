@@ -16,7 +16,7 @@
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fiveunits);
-  background-image: linear-gradient(180deg, rgb(255, 255, 255) 89.00%,rgb(50, 106, 0) 99.00%);
+  background-image: linear-gradient(180deg, rgb(255, 255, 255) 97.00%,rgb(50, 106, 0) 99.00%);
 }
 .numrosutiles-text {
   text-align: center;
@@ -57,6 +57,9 @@
   text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
+.numrosutiles-link {
+  text-decoration: none;
+}
 .numrosutiles-urgences-container {
   width: 100%;
   display: flex;
@@ -96,7 +99,7 @@
   margin-left: var(--dl-space-space-tenunits);
   flex-direction: column;
 }
-.numrosutiles-text06 {
+.numrosutiles-text05 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -139,7 +142,7 @@
   margin-left: var(--dl-space-space-tenunits);
   flex-direction: column;
 }
-.numrosutiles-text32 {
+.numrosutiles-text31 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }

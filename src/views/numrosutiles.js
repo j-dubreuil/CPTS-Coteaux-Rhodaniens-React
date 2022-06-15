@@ -40,7 +40,9 @@ const Numrosutiles = (props) => {
             </span>
           </a>
           <button className="numrosutiles-cta-btn1 anchor button">
-            <span>Soutien, écoute</span>
+            <a href="#soutien" className="numrosutiles-link">
+              Soutien, écoute
+            </a>
           </button>
         </div>
         <div id="urgences" className="numrosutiles-urgences-container">
@@ -54,7 +56,7 @@ const Numrosutiles = (props) => {
             </span>
           </div>
           <div className="numrosutiles-text-container">
-            <span className="numrosutiles-text06 card-Text">
+            <span className="numrosutiles-text05 card-Text">
               <span>Police : 17</span>
               <br></br>
               <span></span>
@@ -116,7 +118,7 @@ const Numrosutiles = (props) => {
             </span>
           </div>
           <div className="numrosutiles-text-container1">
-            <span className="numrosutiles-text32 card-Text">
+            <span className="numrosutiles-text31 card-Text">
               <span>Alcooliques Anonymes</span>
               <br></br>
               <span>L’alcool, en parler pour s’en libérer</span>
