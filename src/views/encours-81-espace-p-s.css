@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.encours81espace-p-s-projets {
+.encours81espace-p-s-espace-p-s {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
@@ -296,7 +296,7 @@
   }
 }
 @media(max-width: 479px) {
-  .encours81espace-p-s-projets {
+  .encours81espace-p-s-espace-p-s {
     padding-top: var(--dl-space-space-fiveunits);
     padding-bottom: var(--dl-space-space-fiveunits);
   }

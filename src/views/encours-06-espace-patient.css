@@ -29,6 +29,41 @@
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
+.encours06espace-patient-buttons {
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: row;
+  justify-content: center;
+}
+.encours06espace-patient-cta-btn {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+  margin-left: var(--dl-space-space-fiveunits);
+  padding-top: var(--dl-space-space-doubleunit);
+  margin-right: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tenunits);
+  border-radius: 30px;
+  padding-right: var(--dl-space-space-tenunits);
+  padding-bottom: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+  background-color: var(--dl-color-gray-black);
+}
+.encours06espace-patient-cta-btn1 {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+  margin-left: var(--dl-space-space-fiveunits);
+  padding-top: var(--dl-space-space-doubleunit);
+  margin-right: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tenunits);
+  border-radius: 30px;
+  padding-right: var(--dl-space-space-tenunits);
+  padding-bottom: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+  background-color: var(--dl-color-gray-black);
+}
 .encours06espace-patient-cards-container {
   width: 100%;
   display: flex;
@@ -71,7 +106,7 @@
 .encours06espace-patient-heading {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.encours06espace-patient-text1 {
+.encours06espace-patient-text05 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -109,7 +144,7 @@
 .encours06espace-patient-heading1 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.encours06espace-patient-text2 {
+.encours06espace-patient-text06 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -147,7 +182,7 @@
 .encours06espace-patient-heading2 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.encours06espace-patient-text3 {
+.encours06espace-patient-text07 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -184,7 +219,7 @@
 .encours06espace-patient-heading3 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.encours06espace-patient-text4 {
+.encours06espace-patient-text08 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -221,7 +256,7 @@
 .encours06espace-patient-heading4 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.encours06espace-patient-text5 {
+.encours06espace-patient-text09 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -258,7 +293,7 @@
 .encours06espace-patient-heading5 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.encours06espace-patient-text6 {
+.encours06espace-patient-text10 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -272,6 +307,9 @@
 }
 @media(max-width: 767px) {
   .encours06espace-patient-heading-container {
+    width: 100%;
+  }
+  .encours06espace-patient-buttons {
     width: 100%;
   }
   .encours06espace-patient-cards-container {

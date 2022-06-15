@@ -32,7 +32,10 @@ const Encours62DemandeMedecin = (props) => {
         />
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name9"></Navbar>
-      <div id="projets" className="encours62demande-medecin-projets">
+      <div
+        id="demandemedtt"
+        className="encours62demande-medecin-demande-med-tt"
+      >
         <div className="encours62demande-medecin-heading-container">
           <h2 className="encours62demande-medecin-text section-Heading">
             Nos projets

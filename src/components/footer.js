@@ -29,7 +29,7 @@ const Footer = (props) => {
               className=""
             ></path>
           </svg>
-          <span className="footer-link anchor">{props.link}</span>
+          <span className="footer-link">{props.copyright}</span>
         </div>
       </div>
     </div>
@@ -37,12 +37,12 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
-  link: 'Tous droits réservés, 2022',
+  copyright: '2022 CPTS, Tous droits réservés',
   rootClassName: '',
 }
 
 Footer.propTypes = {
-  link: PropTypes.string,
+  copyright: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 

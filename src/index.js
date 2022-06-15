@@ -11,7 +11,7 @@ import Accueil from './views/accueil'
 import Actus from './views/actus'
 import Contact from './views/contact'
 import Encours06EspacePatient from './views/encours-06-espace-patient'
-import Encours61Numrosutiles from './views/encours-61-numrosutiles'
+import Numrosutiles from './views/numrosutiles'
 import Encours62DemandeMedecin from './views/encours-62-demande-medecin'
 import Encours08LoginEspacePS from './views/encours-08-login-espace-p-s'
 import Encours82ReinitMdp from './views/encours-82-reinit-mdp'
@@ -33,11 +33,7 @@ const App = () => {
           component={Encours06EspacePatient}
           path="/encours-06-espace-patient"
         />
-        <Route
-          exact
-          component={Encours61Numrosutiles}
-          path="/encours-61-numrosutiles"
-        />
+        <Route exact component={Numrosutiles} path="/numrosutiles" />
         <Route
           exact
           component={Encours62DemandeMedecin}

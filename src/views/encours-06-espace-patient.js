@@ -38,6 +38,20 @@ const Encours06EspacePatient = (props) => {
             Nos projets
           </h2>
         </div>
+        <div className="encours06espace-patient-buttons">
+          <a
+            href="#urgences"
+            className="encours06espace-patient-cta-btn anchor button"
+          >
+            <span>
+              <span>Urgences</span>
+              <span></span>
+            </span>
+          </a>
+          <button className="encours06espace-patient-cta-btn1 anchor button">
+            <span>Soutien, écoute</span>
+          </button>
+        </div>
         <div className="encours06espace-patient-cards-container">
           <div className="encours06espace-patient-features-card">
             <div className="encours06espace-patient-icon-container">
@@ -53,7 +67,7 @@ const Encours06EspacePatient = (props) => {
               <span className="encours06espace-patient-heading card-Heading">
                 Feature One
               </span>
-              <span className="encours06espace-patient-text1 card-Text">
+              <span className="encours06espace-patient-text05 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -74,7 +88,7 @@ const Encours06EspacePatient = (props) => {
               <span className="encours06espace-patient-heading1 card-Heading">
                 Feature Two
               </span>
-              <span className="encours06espace-patient-text2 card-Text">
+              <span className="encours06espace-patient-text06 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -95,7 +109,7 @@ const Encours06EspacePatient = (props) => {
               <span className="encours06espace-patient-heading2 card-Heading">
                 Feature Three
               </span>
-              <span className="encours06espace-patient-text3 card-Text">
+              <span className="encours06espace-patient-text07 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -116,7 +130,7 @@ const Encours06EspacePatient = (props) => {
               <span className="encours06espace-patient-heading3 card-Heading">
                 Feature Four
               </span>
-              <span className="encours06espace-patient-text4 card-Text">
+              <span className="encours06espace-patient-text08 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -137,7 +151,7 @@ const Encours06EspacePatient = (props) => {
               <span className="encours06espace-patient-heading4 card-Heading">
                 Feature Five
               </span>
-              <span className="encours06espace-patient-text5 card-Text">
+              <span className="encours06espace-patient-text09 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -158,7 +172,7 @@ const Encours06EspacePatient = (props) => {
               <span className="encours06espace-patient-heading5 card-Heading">
                 Feature Six
               </span>
-              <span className="encours06espace-patient-text6 card-Text">
+              <span className="encours06espace-patient-text10 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.

@@ -29,7 +29,7 @@ const Encours81EspacePS = (props) => {
         />
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name10"></Navbar>
-      <div id="projets" className="encours81espace-p-s-projets">
+      <div id="espaceps" className="encours81espace-p-s-espace-p-s">
         <div className="encours81espace-p-s-heading-container">
           <h2 className="encours81espace-p-s-text section-Heading">
             Nos projets

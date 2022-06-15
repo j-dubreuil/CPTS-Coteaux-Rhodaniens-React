@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.encours62demande-medecin-projets {
+.encours62demande-medecin-demande-med-tt {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
@@ -304,7 +304,7 @@
   }
 }
 @media(max-width: 479px) {
-  .encours62demande-medecin-projets {
+  .encours62demande-medecin-demande-med-tt {
     padding-top: var(--dl-space-space-fiveunits);
     padding-bottom: var(--dl-space-space-fiveunits);
   }
