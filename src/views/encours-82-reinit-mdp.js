@@ -43,11 +43,11 @@ const Encours82ReinitMdp = (props) => {
           </span>
           <input
             type="text"
-            placeholder="Identifiant"
             id="login_area"
             name="login"
             required
             autoFocus
+            placeholder="Identifiant"
             className="encours82reinit-mdp-login input"
           />
           <button className="encours82reinit-mdp-button button">

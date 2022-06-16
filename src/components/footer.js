@@ -37,13 +37,13 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
-  copyright: '2022 CPTS, Tous droits réservés',
   rootClassName: '',
+  copyright: '2022 CPTS, Tous droits réservés',
 }
 
 Footer.propTypes = {
-  copyright: PropTypes.string,
   rootClassName: PropTypes.string,
+  copyright: PropTypes.string,
 }
 
 export default Footer

@@ -71,7 +71,7 @@ const Accueil = (props) => {
             </Link>
             <Link
               to="/encours-08-login-espace-p-s"
-              className="accueil-cta-btn button anchor"
+              className="accueil-cta-btn anchor button"
             >
               Accès PS
             </Link>

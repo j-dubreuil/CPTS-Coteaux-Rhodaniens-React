@@ -81,28 +81,28 @@ const Contact = (props) => {
 }
 
 Contact.defaultProps = {
-  heading: '- Nous contacter -',
-  Heading: 'Envoyez-nous un message :',
-  Nom_placeholder: 'Nom Prénom',
-  Email_placeholder: 'E-mail',
-  Message_placeholder: 'Votre message...',
-  'Cta-btn': 'ENVOYER',
   Heading1: 'Rhône',
   text: '69700',
   text1: 'cptscoteauxrhodaniens@gmail.com',
+  Message_placeholder: 'Votre message...',
+  Heading: 'Envoyez-nous un message :',
+  heading: '- Nous contacter -',
+  Nom_placeholder: 'Nom Prénom',
+  'Cta-btn': 'ENVOYER',
+  Email_placeholder: 'E-mail',
   rootClassName: '',
 }
 
 Contact.propTypes = {
-  heading: PropTypes.string,
-  Heading: PropTypes.string,
-  Nom_placeholder: PropTypes.string,
-  Email_placeholder: PropTypes.string,
-  Message_placeholder: PropTypes.string,
-  'Cta-btn': PropTypes.string,
   Heading1: PropTypes.string,
   text: PropTypes.string,
   text1: PropTypes.string,
+  Message_placeholder: PropTypes.string,
+  Heading: PropTypes.string,
+  heading: PropTypes.string,
+  Nom_placeholder: PropTypes.string,
+  'Cta-btn': PropTypes.string,
+  Email_placeholder: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 

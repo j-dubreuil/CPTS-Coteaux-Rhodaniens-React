@@ -46,28 +46,28 @@ const Encours08LoginEspacePS = (props) => {
           <div className="encours08login-espace-p-s-input-container">
             <input
               type="text"
-              placeholder="Identifiant"
               id="login_area"
               name="login"
               required
               autoFocus
+              placeholder="Identifiant"
               className="encours08login-espace-p-s-login input"
             />
             <input
               type="password"
-              placeholder="Mot de passe"
               id="pwd_area"
               name="pwd"
               required
-              minlength="8"
               maxlength="20"
+              minlength="8"
+              placeholder="Mot de passe"
               className="encours08login-espace-p-s-pwd input"
             />
             <div className="encours08login-espace-p-s-keep-login-container">
               <input
                 type="checkbox"
-                name="keeplogin"
                 id="keeplogin"
+                name="keeplogin"
                 className="encours08login-espace-p-s-checkbox"
               />
               <span>Se souvenir de moi</span>

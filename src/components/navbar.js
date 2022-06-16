@@ -125,32 +125,32 @@ const Navbar = (props) => {
 }
 
 Navbar.defaultProps = {
-  image_src: '/playground_assets/logo_cpts_miniweb1-1500h.png',
   image_alt: 'image',
-  'Link-Contact': 'Contact',
+  image_src: '/playground_assets/logo_cpts_miniweb1-1500h.png',
   'Cta-btn': 'Accès PS',
+  Image_alt: 'image',
+  'Link-Contact': 'Contact',
+  'Link-Missions1': 'Missions',
   'Link-CPTS': 'La CPTS',
   'Link-Missions': 'Missions de Santé',
   'Link-Projets': 'Projets',
   'Link-Actus': 'Actualités',
   Image_src: '/playground_assets/logo_cpts_miniweb1-1500h.png',
-  Image_alt: 'image',
-  'Link-Missions1': 'Missions',
   rootClassName: '',
 }
 
 Navbar.propTypes = {
-  image_src: PropTypes.string,
   image_alt: PropTypes.string,
-  'Link-Contact': PropTypes.string,
+  image_src: PropTypes.string,
   'Cta-btn': PropTypes.string,
+  Image_alt: PropTypes.string,
+  'Link-Contact': PropTypes.string,
+  'Link-Missions1': PropTypes.string,
   'Link-CPTS': PropTypes.string,
   'Link-Missions': PropTypes.string,
   'Link-Projets': PropTypes.string,
   'Link-Actus': PropTypes.string,
   Image_src: PropTypes.string,
-  Image_alt: PropTypes.string,
-  'Link-Missions1': PropTypes.string,
   rootClassName: PropTypes.string,
 }
 
