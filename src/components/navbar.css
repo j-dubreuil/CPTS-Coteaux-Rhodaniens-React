@@ -279,12 +279,6 @@
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius24);
 }
-.navbar-link-contact1 {
-  text-decoration: none;
-}
-.navbar-link-login-p-s1 {
-  text-decoration: none;
-}
 
 
 
@@ -309,8 +303,14 @@
   .navbar-links-container {
     display: none;
   }
+  .navbar-mobile-menu {
+    display: none;
+  }
 }
 @media(max-width: 479px) {
+  .navbar-mobile-menu {
+    display: none;
+  }
   .navbar-links-container1 {
     display: flex;
   }

@@ -113,12 +113,6 @@ const Navbar = (props) => {
             >
               <span className="">Espace Patient</span>
             </Link>
-            <a href="#contact" className="navbar-link-contact1 anchor">
-              <span className="">Contact</span>
-            </a>
-            <a href="#contact" className="navbar-link-login-p-s1 anchor">
-              Contact
-            </a>
           </div>
         </div>
       </div>
@@ -129,13 +123,7 @@ const Navbar = (props) => {
 Navbar.defaultProps = {
   image_alt: 'image',
   image_src: '/playground_assets/logo_cpts_miniweb1-1500h.png',
-  'Cta-btn': 'Accès PS',
   Image_alt: 'image',
-  'Link-Contact': 'Contact',
-  'Link-CPTS': 'La CPTS',
-  'Link-Missions': 'Missions de Santé',
-  'Link-Projets': 'Projets',
-  'Link-Actus': 'Actualités',
   Image_src: '/playground_assets/logo_cpts_miniweb1-1500h.png',
   rootClassName: '',
 }
@@ -143,13 +131,7 @@ Navbar.defaultProps = {
 Navbar.propTypes = {
   image_alt: PropTypes.string,
   image_src: PropTypes.string,
-  'Cta-btn': PropTypes.string,
   Image_alt: PropTypes.string,
-  'Link-Contact': PropTypes.string,
-  'Link-CPTS': PropTypes.string,
-  'Link-Missions': PropTypes.string,
-  'Link-Projets': PropTypes.string,
-  'Link-Actus': PropTypes.string,
   Image_src: PropTypes.string,
   rootClassName: PropTypes.string,
 }
