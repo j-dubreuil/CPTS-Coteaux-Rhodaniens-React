@@ -7,7 +7,7 @@ import './footer.css'
 const Footer = (props) => {
   return (
     <div className={`footer-footer-container ${props.rootClassName} `}>
-      <div className="footer-footer">
+      <div className="footer-footer bigCard-Heading">
         <div className="footer-social-links">
           <svg viewBox="0 0 950.8571428571428 1024" className="footer-icon">
             <path

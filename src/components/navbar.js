@@ -57,9 +57,9 @@ const Navbar = (props) => {
           </Link>
           <Link
             to="/encours-08-login-espace-p-s"
-            className="navbar-cta-btn button anchor"
+            className="navbar-link-login-p-s anchor"
           >
-            Accès PS
+            Espace Pro
           </Link>
         </div>
         <div data-type="MobileMenu" className="navbar-mobile-menu">
@@ -115,6 +115,9 @@ const Navbar = (props) => {
             </Link>
             <a href="#contact" className="navbar-link-contact1 anchor">
               <span className="">Contact</span>
+            </a>
+            <a href="#contact" className="navbar-link-login-p-s1 anchor">
+              Contact
             </a>
           </div>
         </div>
