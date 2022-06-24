@@ -104,10 +104,7 @@
 }
 .navbar-link-p-s {
   transition: 0.3s;
-  border-color: var(--dl-color-gray-black);
-  border-width: 0px;
   margin-right: TripleUnit;
-  text-decoration: none;
 }
 .navbar-link-p-s:hover {
   border: none;
@@ -118,10 +115,7 @@
 }
 .navbar-link-patient {
   transition: 0.3s;
-  border-color: var(--dl-color-gray-black);
-  border-width: 0px;
   margin-right: var(--dl-space-space-tripleunit);
-  text-decoration: none;
 }
 .navbar-link-patient:hover {
   border: none;
@@ -225,10 +219,10 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.navbar-text04 {
+.navbar-text1 {
   text-decoration: none;
 }
-.navbar-text05 {
+.navbar-text2 {
   text-decoration: none;
 }
 .navbar-link-missions1 {
@@ -261,7 +255,6 @@
 .navbar-link-contact1 {
   text-decoration: none;
 }
-
 
 
 

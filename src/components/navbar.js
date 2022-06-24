@@ -32,35 +32,30 @@ const Navbar = (props) => {
           </div>
           <div className="navbar-links-container anchor">
             <Link to="/c-p-t-s" className="navbar-link-c-p-t-s anchor">
-              {props.Link - CPTS}
+              La CPTS
             </Link>
             <Link to="/missions" className="navbar-link-missions anchor">
-              {props.Link - Missions}
+              Missions de Santé
             </Link>
             <Link to="/projets" className="navbar-link-projets anchor">
-              {props.Link - Projets}
+              Projets
             </Link>
             <Link to="/actus" className="navbar-link-actus anchor">
-              {props.Link - Actus}
+              Actualités
             </Link>
-            <Link to="/professionnels" className="navbar-link-p-s anchor">
-              <span className="">Professionnels</span>
-              <span className=""></span>
-            </Link>
-            <Link to="/numrosutiles" className="navbar-link-patient anchor">
-              <span className="">Espace Patient</span>
-            </Link>
+            <span className="navbar-link-p-s anchor">Professionnels</span>
+            <span className="navbar-link-patient anchor">Espace Patient</span>
           </div>
         </div>
         <div className="navbar-right-side">
           <Link to="/contact" className="navbar-link-contact anchor">
-            {props.Link - Contact}
+            Contact
           </Link>
           <Link
             to="/encours-08-login-espace-p-s"
             className="navbar-cta-btn button anchor"
           >
-            {props.Cta - btn}
+            Accès PS
           </Link>
         </div>
         <div data-type="MobileMenu" className="navbar-mobile-menu">
@@ -86,7 +81,7 @@ const Navbar = (props) => {
               <span className="">Accueil</span>
             </Link>
             <Link to="/c-p-t-s" className="navbar-link-c-p-t-s1 anchor">
-              <span className="navbar-text04">
+              <span className="navbar-text1">
                 La
                 <span
                   dangerouslySetInnerHTML={{
@@ -94,10 +89,10 @@ const Navbar = (props) => {
                   }}
                 />
               </span>
-              <span className="navbar-text05">CPTS</span>
+              <span className="navbar-text2">CPTS</span>
             </Link>
             <Link to="/missions" className="navbar-link-missions1 anchor">
-              {props.Link - Missions1}
+              Missions
             </Link>
             <Link to="/projets" className="navbar-link-projets1 anchor">
               <span className="">Projets</span>
@@ -130,7 +125,6 @@ Navbar.defaultProps = {
   'Cta-btn': 'Accès PS',
   Image_alt: 'image',
   'Link-Contact': 'Contact',
-  'Link-Missions1': 'Missions',
   'Link-CPTS': 'La CPTS',
   'Link-Missions': 'Missions de Santé',
   'Link-Projets': 'Projets',
@@ -145,7 +139,6 @@ Navbar.propTypes = {
   'Cta-btn': PropTypes.string,
   Image_alt: PropTypes.string,
   'Link-Contact': PropTypes.string,
-  'Link-Missions1': PropTypes.string,
   'Link-CPTS': PropTypes.string,
   'Link-Missions': PropTypes.string,
   'Link-Projets': PropTypes.string,

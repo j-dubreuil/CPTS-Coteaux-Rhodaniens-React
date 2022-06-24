@@ -71,7 +71,7 @@
 .encours62demande-medecin-heading {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.encours62demande-medecin-text1 {
+.encours62demande-medecin-text01 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -109,7 +109,7 @@
 .encours62demande-medecin-heading1 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.encours62demande-medecin-text2 {
+.encours62demande-medecin-text02 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -147,7 +147,7 @@
 .encours62demande-medecin-heading2 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.encours62demande-medecin-text3 {
+.encours62demande-medecin-text03 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -184,7 +184,7 @@
 .encours62demande-medecin-heading3 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.encours62demande-medecin-text4 {
+.encours62demande-medecin-text04 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -221,7 +221,7 @@
 .encours62demande-medecin-heading4 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.encours62demande-medecin-text5 {
+.encours62demande-medecin-text05 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -258,7 +258,7 @@
 .encours62demande-medecin-heading5 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.encours62demande-medecin-text6 {
+.encours62demande-medecin-text06 {
   color: var(--dl-color-gray-700);
   text-align: left;
 }
@@ -269,6 +269,158 @@
   align-items: flex-start;
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
+}
+.encours62demande-medecin-contact {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxcontent);
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  justify-content: flex-start;
+  background-image: linear-gradient(180deg, rgb(255, 255, 255) 89.00%,rgb(50, 106, 0) 99.00%);
+}
+.encours62demande-medecin-text07 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.encours62demande-medecin-content-container {
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.encours62demande-medecin-form-container {
+  width: 40%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tenunits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-tenunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  background-color: var(--dl-color-gray-900);
+}
+.encours62demande-medecin-heading6 {
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.encours62demande-medecin-nom {
+  width: 100%;
+  border: none;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.encours62demande-medecin-email {
+  width: 100%;
+  border: none;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.encours62demande-medecin-message {
+  width: 100%;
+  border: none;
+  height: 140px;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.encours62demande-medecin-cta-btn {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-tenunits);
+  border-radius: var(--dl-radius-radius-radius24);
+  padding-right: var(--dl-space-space-tenunits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.encours62demande-medecin-locations-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.encours62demande-medecin-location-1 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+}
+.encours62demande-medecin-heading7 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
+.encours62demande-medecin-adresse {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+}
+.encours62demande-medecin-icon18 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.encours62demande-medecin-email1 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+}
+.encours62demande-medecin-icon20 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.encours62demande-medecin-link {
+  text-decoration: none;
+}
+.encours62demande-medecin-phone {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+}
+.encours62demande-medecin-icon22 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+@media(max-width: 991px) {
+  .encours62demande-medecin-form-container {
+    width: 60%;
+  }
+  .encours62demande-medecin-locations-container {
+    flex-wrap: wrap;
+  }
+  .encours62demande-medecin-location-1 {
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
 }
 @media(max-width: 767px) {
   .encours62demande-medecin-heading-container {
@@ -302,6 +454,19 @@
     width: 70%;
     margin-bottom: var(--dl-space-space-tripleunit);
   }
+  .encours62demande-medecin-content-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .encours62demande-medecin-form-container {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .encours62demande-medecin-locations-container {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 @media(max-width: 479px) {
   .encours62demande-medecin-demande-med-tt {
@@ -325,5 +490,19 @@
   }
   .encours62demande-medecin-features-card5 {
     width: 100%;
+  }
+  .encours62demande-medecin-content-container {
+    padding-left: 0px;
+  }
+  .encours62demande-medecin-form-container {
+    padding: var(--dl-space-space-tripleunit);
+    margin-right: 0px;
+  }
+  .encours62demande-medecin-heading6 {
+    text-align: center;
+  }
+  .encours62demande-medecin-location-1 {
+    margin-right: 0px;
+    margin-bottom: 0px;
   }
 }

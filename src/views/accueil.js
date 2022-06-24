@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 import Navbar from '../components/navbar'
-import Contact from '../components/contact'
 import Footer from '../components/footer'
 import './accueil.css'
 
@@ -75,7 +74,7 @@ const Accueil = (props) => {
               </svg>
             </div>
             <div className="accueil-text-container">
-              <span className="accueil-heading1 card-Heading">Mission 1</span>
+              <span className="accueil-heading01 card-Heading">Mission 1</span>
               <span className="accueil-text03 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -91,7 +90,7 @@ const Accueil = (props) => {
               </svg>
             </div>
             <div className="accueil-text-container1">
-              <span className="accueil-heading2 card-Heading">Mission 2</span>
+              <span className="accueil-heading02 card-Heading">Mission 2</span>
               <span className="accueil-text04 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -107,7 +106,7 @@ const Accueil = (props) => {
               </svg>
             </div>
             <div className="accueil-text-container2">
-              <span className="accueil-heading3 card-Heading">Mission 3</span>
+              <span className="accueil-heading03 card-Heading">Mission 3</span>
               <span className="accueil-text05 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -123,7 +122,7 @@ const Accueil = (props) => {
               </svg>
             </div>
             <div className="accueil-text-container3">
-              <span className="accueil-heading4 card-Heading">Mission 4</span>
+              <span className="accueil-heading04 card-Heading">Mission 4</span>
               <span className="accueil-text06 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -139,7 +138,7 @@ const Accueil = (props) => {
               </svg>
             </div>
             <div className="accueil-text-container4">
-              <span className="accueil-heading5 card-Heading">Mission 5</span>
+              <span className="accueil-heading05 card-Heading">Mission 5</span>
               <span className="accueil-text07 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -155,7 +154,7 @@ const Accueil = (props) => {
               </svg>
             </div>
             <div className="accueil-text-container5">
-              <span className="accueil-heading6 card-Heading">Mission 6</span>
+              <span className="accueil-heading06 card-Heading">Mission 6</span>
               <span className="accueil-text08 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -303,7 +302,7 @@ const Accueil = (props) => {
               </div>
             </div>
             <div className="accueil-content-container1">
-              <span className="accueil-heading7 card-Heading">Article 1</span>
+              <span className="accueil-heading07 card-Heading">Article 1</span>
               <span className="accueil-text24 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -435,8 +434,69 @@ const Accueil = (props) => {
         </Link>
       </div>
       <div className="accueil-section-separator4"></div>
-      <Contact></Contact>
-      <Footer rootClassName="footer-root-class-name12"></Footer>
+      <div id="contact" className="accueil-contact">
+        <h2 className="accueil-text36 section-Heading">- Nous contacter -</h2>
+        <div className="accueil-content-container6">
+          <div className="accueil-form-container">
+            <span className="accueil-heading08 bigCard-Heading">
+              Envoyez-nous un message :
+            </span>
+            <input
+              type="text"
+              required="true"
+              placeholder="Nom Prénom"
+              className="accueil-nom input"
+            />
+            <input
+              type="text"
+              required="true"
+              placeholder="E-mail"
+              className="accueil-email input"
+            />
+            <textarea
+              placeholder="Votre message..."
+              className="accueil-message textarea"
+            ></textarea>
+            <button type="submit" className="accueil-cta-btn5 anchor button">
+              ENVOYER
+            </button>
+          </div>
+          <div className="accueil-locations-container">
+            <div className="accueil-location-1">
+              <span className="accueil-heading09">Rhône</span>
+              <div className="accueil-adresse">
+                <svg viewBox="0 0 1024 1024" className="accueil-icon42">
+                  <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
+                </svg>
+                <span className="section-Text">69700</span>
+              </div>
+              <div className="accueil-email1">
+                <svg viewBox="0 0 1024 1024" className="accueil-icon44">
+                  <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
+                </svg>
+                <a
+                  href="mailto:cptscoteauxrhodaniens@gmail.com?subject=Contact site web"
+                  className="accueil-link8 section-Text"
+                >
+                  cptscoteauxrhodaniens@gmail.com
+                </a>
+              </div>
+              <div className="accueil-phone">
+                <svg
+                  viewBox="0 0 804.5714285714286 1024"
+                  className="accueil-icon46"
+                >
+                  <path d="M804.571 708.571c0 20.571-9.143 60.571-17.714 79.429-12 28-44 46.286-69.714 60.571-33.714 18.286-68 29.143-106.286 29.143-53.143 0-101.143-21.714-149.714-39.429-34.857-12.571-68.571-28-100-47.429-97.143-60-214.286-177.143-274.286-274.286-19.429-31.429-34.857-65.143-47.429-100-17.714-48.571-39.429-96.571-39.429-149.714 0-38.286 10.857-72.571 29.143-106.286 14.286-25.714 32.571-57.714 60.571-69.714 18.857-8.571 58.857-17.714 79.429-17.714 4 0 8 0 12 1.714 12 4 24.571 32 30.286 43.429 18.286 32.571 36 65.714 54.857 97.714 9.143 14.857 26.286 33.143 26.286 50.857 0 34.857-103.429 85.714-103.429 116.571 0 15.429 14.286 35.429 22.286 49.143 57.714 104 129.714 176 233.714 233.714 13.714 8 33.714 22.286 49.143 22.286 30.857 0 81.714-103.429 116.571-103.429 17.714 0 36 17.143 50.857 26.286 32 18.857 65.143 36.571 97.714 54.857 11.429 5.714 39.429 18.286 43.429 30.286 1.714 4 1.714 8 1.714 12z"></path>
+                </svg>
+                <span className="section-Text">
+                  <span>04 05 06 07 08</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer></Footer>
     </div>
   )
 }
