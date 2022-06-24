@@ -69,7 +69,6 @@
 .accueil-missions {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxcontent);
   margin-top: var(--dl-space-space-fiveunits);
   align-items: center;
   padding-top: var(--dl-space-space-tenunits);
@@ -346,7 +345,6 @@
 .accueil-projets {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxcontent);
   margin-top: var(--dl-space-space-fiveunits);
   align-items: center;
   padding-top: var(--dl-space-space-tenunits);
@@ -459,7 +457,6 @@
 .accueil-pros {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxcontent);
   margin-top: var(--dl-space-space-fiveunits);
   align-items: center;
   padding-top: var(--dl-space-space-tenunits);
@@ -642,7 +639,6 @@
 .accueil-actus {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxcontent);
   margin-top: var(--dl-space-space-fiveunits);
   align-items: center;
   padding-top: var(--dl-space-space-tenunits);
@@ -1079,7 +1075,6 @@
   width: 100%;
   display: flex;
   position: relative;
-  max-width: var(--dl-size-size-maxcontent);
   margin-top: var(--dl-space-space-fiveunits);
   align-items: center;
   padding-top: var(--dl-space-space-fiveunits);

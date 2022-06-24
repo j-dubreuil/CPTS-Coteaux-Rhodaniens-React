@@ -20,14 +20,15 @@
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: row;
   padding-bottom: var(--dl-space-space-doubleunit);
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .navbar-left-side {
   flex: 1;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .navbar-navlink {
   display: contents;
@@ -60,69 +61,86 @@
   align-self: center;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .navbar-link-c-p-t-s {
-  transition: 0.3s;
+  color: #326a00;
+  transition: 0.1s;
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
 .navbar-link-c-p-t-s:hover {
-  padding: var(--dl-space-space-halfunit);
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
-  border-radius: var(--dl-radius-radius-radius24);
+  color: #326a00;
+  border-color: #326a00;
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
 }
 .navbar-link-missions {
-  transition: 0.3s;
+  color: #326a00;
+  transition: 0.1s;
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
 .navbar-link-missions:hover {
-  padding: var(--dl-space-space-halfunit);
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
-  border-radius: var(--dl-radius-radius-radius24);
+  border-color: #326a00;
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
 }
 .navbar-link-projets {
-  transition: 0.3s;
+  color: #326a00;
+  transition: 0.1s;
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
 .navbar-link-projets:hover {
-  padding: var(--dl-space-space-halfunit);
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
-  border-radius: var(--dl-radius-radius-radius24);
+  border-color: #326a00;
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
 }
 .navbar-link-actus {
-  transition: 0.3s;
+  color: #326a00;
+  transition: 0.1s;
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
 .navbar-link-actus:hover {
-  padding: var(--dl-space-space-halfunit);
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
-  border-radius: var(--dl-radius-radius-radius24);
+  border-color: #326a00;
+  border-style: solid;
+  border-width: 0x;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
 }
-.navbar-link-p-s {
-  transition: 0.3s;
-  margin-right: TripleUnit;
+.navbar-link-pros {
+  color: #326a00;
+  transition: 0.1s;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
 }
-.navbar-link-p-s:hover {
-  border: none;
-  padding: var(--dl-space-space-halfunit);
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius24);
+.navbar-link-pros:hover {
+  border-color: #326a00;
+  border-style: solid;
+  border-width: 0x;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
 }
 .navbar-link-patient {
-  transition: 0.3s;
+  color: #326a00;
+  transition: 0.1s;
   margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
 }
 .navbar-link-patient:hover {
-  border: none;
-  padding: var(--dl-space-space-halfunit);
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius24);
+  border-color: #326a00;
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
 }
 .navbar-right-side {
   display: flex;
@@ -132,6 +150,7 @@
   justify-content: space-between;
 }
 .navbar-link-contact {
+  color: #326a00;
   text-align: center;
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
@@ -152,7 +171,7 @@
   border-width: 5px;
 }
 .navbar-cta-btn {
-  color: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-black);
   opacity: 0.9;
   text-align: center;
   padding-top: var(--dl-space-space-halfunit);
@@ -162,7 +181,7 @@
   padding-right: var(--dl-space-space-doubleunit);
   padding-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
-  background-color: #333333;
+  background-color: #326a00;
 }
 .navbar-mobile-menu {
   top: 0px;
@@ -235,7 +254,7 @@
 .navbar-link-actus1 {
   text-decoration: none;
 }
-.navbar-link-p-s1 {
+.navbar-link-p-s {
   text-decoration: none;
 }
 .navbar-link-patient1 {

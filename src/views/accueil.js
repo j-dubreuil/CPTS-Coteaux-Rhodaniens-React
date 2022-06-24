@@ -457,7 +457,7 @@ const Accueil = (props) => {
               placeholder="Votre message..."
               className="accueil-message textarea"
             ></textarea>
-            <button type="submit" className="accueil-cta-btn5 anchor button">
+            <button type="submit" className="accueil-cta-btn5 button anchor">
               ENVOYER
             </button>
           </div>

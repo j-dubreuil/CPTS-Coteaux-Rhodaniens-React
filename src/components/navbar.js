@@ -43,8 +43,12 @@ const Navbar = (props) => {
             <Link to="/actus" className="navbar-link-actus anchor">
               Actualités
             </Link>
-            <span className="navbar-link-p-s anchor">Professionnels</span>
-            <span className="navbar-link-patient anchor">Espace Patient</span>
+            <Link to="/professionnels" className="navbar-link-pros anchor">
+              Professionnels
+            </Link>
+            <Link to="/numrosutiles" className="navbar-link-patient anchor">
+              Espace Patient
+            </Link>
           </div>
         </div>
         <div className="navbar-right-side">
@@ -100,7 +104,7 @@ const Navbar = (props) => {
             <Link to="/actus" className="navbar-link-actus1 anchor">
               <span className="">Actus</span>
             </Link>
-            <Link to="/professionnels" className="navbar-link-p-s1 anchor">
+            <Link to="/professionnels" className="navbar-link-p-s anchor">
               <span className="">Professionnels</span>
             </Link>
             <Link

@@ -162,7 +162,7 @@ const Projets = (props) => {
               placeholder="Votre message..."
               className="projets-message textarea"
             ></textarea>
-            <button type="submit" className="projets-cta-btn anchor button">
+            <button type="submit" className="projets-cta-btn button anchor">
               ENVOYER
             </button>
           </div>

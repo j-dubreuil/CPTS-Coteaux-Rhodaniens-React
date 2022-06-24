@@ -173,7 +173,7 @@ const Missions = (props) => {
               placeholder="Votre message..."
               className="missions-message textarea"
             ></textarea>
-            <button type="submit" className="missions-cta-btn anchor button">
+            <button type="submit" className="missions-cta-btn button anchor">
               ENVOYER
             </button>
           </div>

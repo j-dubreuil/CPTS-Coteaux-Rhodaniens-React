@@ -272,7 +272,7 @@ const Numrosutiles = (props) => {
             ></textarea>
             <button
               type="submit"
-              className="numrosutiles-cta-btn2 anchor button"
+              className="numrosutiles-cta-btn2 button anchor"
             >
               ENVOYER
             </button>

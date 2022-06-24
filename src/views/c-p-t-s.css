@@ -49,7 +49,6 @@
 .c-p-t-s-a-savoir {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxcontent);
   align-items: center;
   padding-top: var(--dl-space-space-tenunits);
   padding-left: var(--dl-space-space-tripleunit);
@@ -312,7 +311,6 @@
 .c-p-t-s-bureau {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxcontent);
   margin-top: var(--dl-space-space-fiveunits);
   align-items: center;
   padding-top: var(--dl-space-space-tenunits);
@@ -484,7 +482,6 @@
   width: 100%;
   display: flex;
   position: relative;
-  max-width: var(--dl-size-size-maxcontent);
   margin-top: var(--dl-space-space-fiveunits);
   align-items: center;
   padding-top: var(--dl-space-space-fiveunits);

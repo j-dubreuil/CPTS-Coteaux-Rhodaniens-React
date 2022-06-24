@@ -9,7 +9,6 @@
 .actus-actus {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxcontent);
   align-items: center;
   padding-top: var(--dl-space-space-tenunits);
   padding-left: var(--dl-space-space-tripleunit);
@@ -274,7 +273,6 @@
   width: 100%;
   display: flex;
   position: relative;
-  max-width: var(--dl-size-size-maxcontent);
   margin-top: var(--dl-space-space-fiveunits);
   align-items: center;
   padding-top: var(--dl-space-space-fiveunits);

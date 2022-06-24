@@ -231,7 +231,7 @@ const CPTS = (props) => {
               placeholder="Votre message..."
               className="c-p-t-s-message textarea"
             ></textarea>
-            <button type="submit" className="c-p-t-s-cta-btn anchor button">
+            <button type="submit" className="c-p-t-s-cta-btn button anchor">
               ENVOYER
             </button>
           </div>
